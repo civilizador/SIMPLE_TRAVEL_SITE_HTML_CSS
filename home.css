@@ -1,0 +1,145 @@
+body {margin: 0; padding: 0;}
+
+/*MENU*/
+
+
+/*Creating a menu bar*/
+.navigation  {margin: 0; padding: 0; width: 100%; background-color: #2f3036; height: 53px;}
+
+/*Create a menu item with spacing*/
+.item1  {
+    width:140px;
+    height: 100%;
+    display:inline-block;
+    float: left;
+    margin-right: 3px;
+    text-align: center;
+    line-height: 50px;
+   
+    background: #2f3036;
+    
+}
+
+
+/*Hover state for top links*/
+     .navigation .item1:hover {
+     background: #19c589;
+}
+ 
+/*END of MENU*/
+
+
+
+
+   
+  
+  .content { width: 100%; border: 1px solid blue; height: 900px;}
+  .countries {border: 2px solid lavender; height: 300px; width: 29%; margin: 0px; padding: 0px;  }
+  .header {width: 100; margin: 0px; padding: 0px; height: 200px;}
+  .row1 {height: auto; margin-bottom: 3%;}
+    .details,
+    .details1,
+    .details2,
+    .details3,
+    .details4,
+    .details5,
+    .details6,
+    .details7,
+    .details8,
+    .details9{
+          
+         margin: 2px;
+         
+       height: 100%;
+       width:100%; 
+       background-color: #2f3036; 
+       opacity: 0.7;
+       display: none;
+       color: white;
+       text-align: justify;
+       padding-top: 15%;
+  }
+       
+       
+     .countries:hover .details {
+     display: inline-block;
+}
+
+     .countries:hover .details1 {
+     display: inline-block;
+}
+     .countries:hover .details2 {
+     display: inline-block;
+}
+     .countries:hover .details3 {
+     display: inline-block;
+}
+     .countries:hover .details4 {
+     display: inline-block;
+}
+     .countries:hover .details5 {
+     display: inline-block;
+}
+     .countries:hover .details6 {
+     display: inline-block;
+}
+     .countries:hover .details7 {
+     display: inline-block;
+}
+     .countries:hover .details8 {
+     display: inline-block;
+}
+ 
+
+
+  .fa-code {width: 150px ; height: 150px;}
+  
+  .footer {width: 100%; 
+          height: 50px; background-color: black; 
+          text-align: center; 
+          color: white; 
+          margin-top: 60px; 
+          position: fixed; 
+          bottom: 0px;
+          
+          }   
+     
+     
+     .a {
+       background-image: url(https://i0.wp.com/pwablog.wpengine.com/wp-content/uploads/2015/08/IRK_6990-21.jpg);
+       background-size: cover;
+  } 
+   .b {
+       background-image: url(https://images.unsplash.com/photo-1495646154705-7924009674d5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=511a587792d9a365368812b4f87a1d67&auto=format&fit=crop&w=1050&q=80);
+       background-size: cover;
+  } 
+   .c {
+       background-image: url(https://kongres-magazine.eu/wp-content/uploads/2018/02/baku-azerbaijan-travel-ap.jpg);
+       background-size: cover;
+  } 
+   .d {
+       background-image: url(https://higherlogicdownload.s3.amazonaws.com/IMANET/0be307fc-98fd-412d-b879-ae9a90f110de/UploadedImages/Moscow.jpg);
+       background-size: cover;
+  } 
+   .e {
+       background-image: url(https://images.unsplash.com/photo-1500039436846-25ae2f11882e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=513b3fb76604ed377fb80434b20878ff&auto=format&fit=crop&w=1489&q=80);
+       background-size: cover;
+  } 
+   .f {
+       background-image: url(https://www.lastminute.com/hotels/img/city/Sofia-BG.jpg);
+       background-size: cover;
+  } 
+  .g {
+       background-image: url(https://www.isolatedtraveller.com/wp-content/uploads/2017/06/cities-Madrid.jpg);
+       background-size: cover;
+  } 
+  .h {
+       background-image: url(https://www.qatarairways.com/content/dam/images/renditions/horizontal-1/destinations/turkey/istanbul/h1-istanbul-primary-culture.jpg);
+       background-size: cover;
+  } 
+  .i {
+       background-image: url(https://www.stgiles-international.com/app/webroot/images/LC-top-photo.jpg);
+       background-size: cover;
+  }
+   
+  
