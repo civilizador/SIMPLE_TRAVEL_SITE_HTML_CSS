@@ -36,7 +36,6 @@
 .wrapper{
   width: 100%;
   display: grid;
-  border: 2px solid green;
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-gap: 60px;
@@ -45,7 +44,6 @@
 
 .header{
   height: 50px;
-  border: 2px solid teal;
   grid-column-start: 1;
   grid-column-end: 4;
 }
@@ -69,7 +67,6 @@ h1{
 .info{
   opacity: 1;
   color: white;
-  border: 3px solid pink;
   margin: 0px auto;
 }
 
@@ -81,7 +78,6 @@ h1{
   height: 364px;
   margin: 0 auto;
   width:80%;
-  /* border: 2px solid red; */
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -95,9 +91,7 @@ h1{
   border-radius: 50%;
   height: 364px;
   margin: 0 auto;
-  /* text-align: center; */
   width:80%;
-  /* border: 2px solid red; */
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 3;
@@ -111,9 +105,7 @@ h1{
   border-radius: 50%;
   height: 364px;
   margin: 0 auto;
-  /* text-align: center; */
   width:80%;
-  /* border: 2px solid red; */
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 4;
@@ -127,11 +119,9 @@ h1{
   overflow: scroll;
   box-shadow: 10px 10px 5px grey;
   position: relative;
-  border-radius: 10px;
   right: 50px;
   height: 364px;
   margin: 200 60px;
-  border: 2px solid yellow;
   grid-column-start: 2;
   grid-column-end: 4;
   }
@@ -142,11 +132,9 @@ h1{
     overflow: scroll;
     box-shadow: 10px 10px 5px grey;
     position: relative;
-    border-radius: 10px;
     right: 50px;
     height: 364px;
     margin: 200 60px;
-    border: 2px solid yellow;
     grid-column-start: 2;
     grid-column-end: 4;
   }
@@ -157,11 +145,9 @@ h1{
   overflow: scroll;
   box-shadow: 10px 10px 5px grey;
   position: relative;
-  border-radius: 10px;
   right: 50px;
   height: 364px;
   margin: 200 60px;
-  border: 2px solid yellow;
   grid-column-start: 2;
   grid-column-end: 4;
   }
