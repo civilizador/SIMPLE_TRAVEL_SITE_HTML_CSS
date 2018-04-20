@@ -1,0 +1,182 @@
+
+
+/*Creating a menu bar*/
+.navigation  {width: 100%; background-color: #2f3036; height: 53px;}
+
+/*Create a menu item with spacing*/
+.item1  {
+    width:140px;
+    height: 100%;
+    display:inline-block;
+    float: left;
+    margin-right: 3px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #2f3036;
+
+}
+
+
+/*Hover state for top links*/
+     .navigation .item1:hover {
+     background: #19c589;
+}
+
+/*END of MENU*/
+.footer {width: 100%;
+          height: 50px; background-color: black;
+          text-align: center;
+          color: white;
+          margin-top: 60px;
+          position: fixed;
+          bottom: 0px;
+
+          }
+.wrapper{
+  width: 100%;
+  display: grid;
+  border: 2px solid green;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 60px;
+  grid-auto-rows: auto;
+}
+
+.header{
+  height: 50px;
+  border: 2px solid teal;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+h1{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.titles{
+  color: white;
+  margin: 30px auto;
+}
+
+.pricing {
+  border-radius: 20px;
+  margin: 60px 75px;
+  border: 3px solid green;
+}
+
+.info{
+  opacity: 1;
+  color: white;
+  border: 3px solid pink;
+  margin: 0px auto;
+}
+
+.box1{
+  background-image: url("images/paris.jpg");
+  background-size: 100% 100%;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 50%;
+  height: 364px;
+  margin: 0 auto;
+  width:80%;
+  /* border: 2px solid red; */
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.box2{
+  background-image: url("images/spain.jpg");
+  background-size: 100% 100%;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 50%;
+  height: 364px;
+  margin: 0 auto;
+  /* text-align: center; */
+  width:80%;
+  /* border: 2px solid red; */
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.box3{
+  background-image: url("images/rome.jpg");
+  background-size: 100% 100%;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 50%;
+  height: 364px;
+  margin: 0 auto;
+  /* text-align: center; */
+  width:80%;
+  /* border: 2px solid red; */
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+}
+
+.box4{
+  background-image: url("images/paris-black.jpg");
+  background-size: 100% 100%;
+  overflow: scroll;
+  box-shadow: 10px 10px 5px grey;
+  position: relative;
+  border-radius: 10px;
+  right: 50px;
+  height: 364px;
+  margin: 200 60px;
+  border: 2px solid yellow;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  }
+
+  .box5{
+    background-image: url("images/spain-black.jpg");
+    background-size: 100% 100%;
+    overflow: scroll;
+    box-shadow: 10px 10px 5px grey;
+    position: relative;
+    border-radius: 10px;
+    right: 50px;
+    height: 364px;
+    margin: 200 60px;
+    border: 2px solid yellow;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+.box6{
+  background-image: url("images/rome-black.jpg");
+  background-size: 100% 100%;
+  overflow: scroll;
+  box-shadow: 10px 10px 5px grey;
+  position: relative;
+  border-radius: 10px;
+  right: 50px;
+  height: 364px;
+  margin: 200 60px;
+  border: 2px solid yellow;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  }
+
+.buy{
+  color: white;
+}
+
+a:link{
+  color: white;
+}
+
+/* laptop */
+@media all and (max-width: 992px){
+.pricing{
+  margin-left: 5px;
+  }
+}
