@@ -66,12 +66,18 @@ h1{
   border: 3px solid green;
 }
 
-
+.info{
+  opacity: 1;
+  color: white;
+  border: 3px solid pink;
+  margin: 0px auto;
+}
 
 .box1{
-  background-color: green;
+  background-image: url("images/paris.jpg");
+  background-size: 100% 100%;
   box-shadow: 10px 10px 5px grey;
-  border-radius: 20px;
+  border-radius: 50%;
   height: 364px;
   margin: 0 auto;
   width:80%;
@@ -83,9 +89,10 @@ h1{
 }
 
 .box2{
-  background-color: green;
+  background-image: url("images/spain.jpg");
+  background-size: 100% 100%;
   box-shadow: 10px 10px 5px grey;
-  border-radius: 20px;
+  border-radius: 50%;
   height: 364px;
   margin: 0 auto;
   /* text-align: center; */
@@ -98,9 +105,10 @@ h1{
 }
 
 .box3{
-  background-color: green;
+  background-image: url("images/rome.jpg");
+  background-size: 100% 100%;
   box-shadow: 10px 10px 5px grey;
-  border-radius: 20px;
+  border-radius: 50%;
   height: 364px;
   margin: 0 auto;
   /* text-align: center; */
@@ -114,10 +122,12 @@ h1{
 }
 
 .box4{
-  background-color: black;
   background-image: url("images/paris-black.jpg");
   background-size: 100% 100%;
+  overflow: scroll;
+  box-shadow: 10px 10px 5px grey;
   position: relative;
+  border-radius: 10px;
   right: 50px;
   height: 364px;
   margin: 200 60px;
@@ -126,15 +136,13 @@ h1{
   grid-column-end: 4;
   }
 
-  .info{
-    opacity: 1;
-    color: white;
-    border: 3px solid pink;
-    margin: 0px auto;
-  }
-
   .box5{
+    background-image: url("images/spain-black.jpg");
+    background-size: 100% 100%;
+    overflow: scroll;
+    box-shadow: 10px 10px 5px grey;
     position: relative;
+    border-radius: 10px;
     right: 50px;
     height: 364px;
     margin: 200 60px;
@@ -144,7 +152,12 @@ h1{
   }
 
 .box6{
+  background-image: url("images/rome-black.jpg");
+  background-size: 100% 100%;
+  overflow: scroll;
+  box-shadow: 10px 10px 5px grey;
   position: relative;
+  border-radius: 10px;
   right: 50px;
   height: 364px;
   margin: 200 60px;
@@ -152,13 +165,18 @@ h1{
   grid-column-start: 2;
   grid-column-end: 4;
   }
+
+.buy{
+  color: white;
 }
 
+a:link{
+  color: white;
+}
 
-
-
-
-
-/* .text{
-  float: right;
-} */
+/* laptop */
+@media all and (max-width: 992px){
+.pricing{
+  margin-left: 5px;
+  }
+}
