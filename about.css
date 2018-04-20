@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*Creating a menu bar*/
+.navigation  {width: 100%; background-color: #2f3036; height: 53px;}
+
+/*Create a menu item with spacing*/
+.item1  {
+    width:140px;
+    height: 100%;
+    display:inline-block;
+    float: left;
+    margin-right: 3px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #2f3036;
+    
+}
+
+
+/*Hover state for top links*/
+     .navigation .item1:hover {
+     background: #19c589;
+}
+ 
+/*END of MENU*/
+.footer {width: 100%; 
+          height: 50px; background-color: black; 
+          text-align: center; 
+          color: white; 
+          margin-top: 60px; 
+          position: fixed; 
+          bottom: 0px;
+          
+          }   
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	border: 3px solid black;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+	grid-gap: 6px;
+	grid-template-rows: 40px 530px 30px;
+
+} 
+.box1content {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	border: 2px solid black;
+	overflow: scroll;
+	padding-top: 10px;
+	position: relative;
+	left: 10px;
+
+}
+
+.box2contact {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	height: 400px;
+	border: 2px solid black;
+}
+
+.images {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3;
+
+}
+
+
+.header {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	text-align: center;
+	border: 2px solid black;
+	color: red;
+	position: relative;
+	top: 0 auto;
+	border: 2px solid black;
+}
+
+.gallery {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding-top: 10px;}
+
+.images {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	position: relative;
+	top: 100px;
+	left: 150px;
+	overflow: scroll;
+	height: 200px;
+
+}
+
+.contact {
+	text-align: center;
+	font-size: 30px;
+	color: blue;
+	text-decoration: underline;
+}
+
+
+.gallery, .CustomerReviews, .OurPartners, .OurStory {
+	/*text-decoration: underline;*/
+	text-align: center;
+	font-size: 20px;
+
+}
+
+p {
+	text-align: left;
+
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+.stayconnected {
+	font-size: 16px;
+	margin-left: 10px;
+	text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
