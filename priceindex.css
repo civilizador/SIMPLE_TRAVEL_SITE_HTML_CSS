@@ -74,7 +74,7 @@ h1{
   background-image: url("images/paris.jpg");
   background-size: 100% 100%;
   box-shadow: 10px 10px 5px grey;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   height: 364px;
   margin: 0 auto;
   width:80%;
@@ -88,7 +88,7 @@ h1{
   background-image: url("images/spain.jpg");
   background-size: 100% 100%;
   box-shadow: 10px 10px 5px grey;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   height: 364px;
   margin: 0 auto;
   width:80%;
@@ -102,7 +102,7 @@ h1{
   background-image: url("images/rome.jpg");
   background-size: 100% 100%;
   box-shadow: 10px 10px 5px grey;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   height: 364px;
   margin: 0 auto;
   width:80%;
@@ -160,7 +160,7 @@ a:link{
   color: white;
 }
 a:visited{
-  color:white;
+  color: white;
 }
 
 /* laptop */
@@ -168,6 +168,7 @@ a:visited{
 /* Paris boxes */
 .box1{
   margin-left: 50px;
+  border-radius: 50%;
   height: 200px;
 }
 .box4{
@@ -176,6 +177,7 @@ a:visited{
 }
 .box2{
   margin-left: 50px;
+  border-radius: 50%;
   height: 200px;
 }
 .box5{
@@ -184,6 +186,7 @@ a:visited{
 }
 .box3{
   margin-left: 50px;
+  border-radius: 50%;
   height: 200px;
 }
 .box6{
