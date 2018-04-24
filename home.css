@@ -52,10 +52,10 @@ body {margin: 0; padding: 0;}
          
        height: 100%;
        width:100%; 
-       background-color: #2f3036; 
+       background-color: ivory; 
        opacity: 0.7;
        display: none;
-       color: white;
+       color: gray;
        text-align: justify;
        padding-top: 15%;
   }
